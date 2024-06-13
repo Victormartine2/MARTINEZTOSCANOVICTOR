@@ -1,0 +1,29 @@
+body{
+background-color: rgb(156, 155, 155)
+}
+.imagenfondo{
+    background-image: image();
+}
+.tamañofondo{
+    width: 1750px;
+}
+
+#Menuderecha{
+    display: flex;
+    float: right;
+}
+#Menuderecha ul{
+    display: flex; /*Los elementos se muestran uno al lado del otro*/
+}
+
+/*Seleccionamos los li del menú*/
+#Menuderecha  ul li{
+    list-style: none; /*Le quitamos los puntitos*/
+    padding: 10px; /*Relleno a los li*/
+}
+
+/*Seleccionamos los enlaces del menú*/
+#Menuderecha  ul li a{
+    color: aliceblue; /*Color de enlaces blanco*/
+    text-decoration: none; /*Quitar el subrayado*/
+}
